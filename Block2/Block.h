@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Block.h
 //  Block2
 //
 //  Created by 玄博屹 on 2017/12/14.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-    }
-    return 0;
-}
+@interface Block : NSObject
+-(void)testBlock;
+@end
