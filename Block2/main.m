@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Block.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+        Block *b1 = [[Block alloc]init];
+        [b1 testBlock];
     }
     return 0;
 }

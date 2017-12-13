@@ -8,7 +8,6 @@
 
 #import "Block.h"
 typedef int(^MyBlock) (int);
-
 @implementation Block
 -(void)testBlock{
 MyBlock b1 = ^(int b ){
@@ -16,7 +15,7 @@ MyBlock b1 = ^(int b ){
     return b*b;
     };
     int newB = b1(5);
-    NSLog(@"%d",newB);
+  
 }
 @end
 
